@@ -1,3 +1,7 @@
+/* use it */
+html { font-family: "Jost", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+
+
 *{
     margin: 0;
     padding: 0;
@@ -23,15 +27,28 @@ html, body{
 
 #page1 nav{
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#page1 nav img{
+    width: 10%;
 }
 
 #page1 video{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+#right-nav button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #0b48ed;
+    border: 1px solid #f7f7f7;
+    color: #f7f7f7;
 }
