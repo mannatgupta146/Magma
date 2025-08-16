@@ -6,7 +6,6 @@ html { font-family: "Jost", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 html, body{
@@ -20,7 +19,7 @@ html, body{
 }
 
 #page1{
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     position: relative;
 }
@@ -46,9 +45,55 @@ html, body{
 }
 
 #right-nav button{
+    margin-top: 2.5vw;
     padding: 10px 20px;
     border-radius: 50px;
     background-color: #0b48ed;
     border: 1px solid #f7f7f7;
     color: #f7f7f7;
+    font-size: 1vw;
+}
+
+#page1-bottom{
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    height: 40vh;
+    width: 50vw;
+    line-height: 1;
+    color: #fff;
+}
+
+#page1-bottom h1{
+    font-size: 6.4vw;
+    font-weight: 300;
+    line-height: 6.7vw;
+    letter-spacing: -.05vw;
+}
+
+#bottom-inner{
+    height: 40%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#bottom-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#bottom-inner button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0b48ed;
+    font-size: 1.2vw;
+}
+
+#bottom-inner h4{
+    font-size: 1.5vw;
+    font-weight: 400;
 }
