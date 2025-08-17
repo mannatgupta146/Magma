@@ -21,7 +21,7 @@ html, body{
 #main{
     position: relative;
     overflow: hidden;
-        background: linear-gradient(to bottom, #1137ca, #0D36C5);
+    background: #0b48ed;
 }
 
 #page1{
@@ -174,6 +174,42 @@ html, body{
 
 #page5 canvas{
     position: relative;
-    width: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+#page6{
     height: 100vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to bottom, #0B48ED, #1137ca);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+#page6 h1{
+    margin-left: 10vw;
+    width: 70%;
+    font-size: 3.5vw;
+    line-height: 1.4;
+    letter-spacing: -.06vw;
+    font-weight: 500;
+    color: #dadada69;
+}
+
+#page6 h3{
+    margin-left: 10vw;
+    margin-bottom: 2vw;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+#page7{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #1137ca;
 }
