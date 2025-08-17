@@ -57,7 +57,7 @@ html, body{
 
 #page1-bottom{
     position: absolute;
-    bottom: 10%;
+    bottom: 18%;
     left: 8%;
     height: 40vh;
     width: 50vw;
@@ -159,4 +159,12 @@ html, body{
     margin-bottom: 2vw;
     font-size: 1.2vw;
     font-weight: 400;
+}
+
+#page4{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #1137ca;
+    color: #fff;
 }
