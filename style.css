@@ -8,6 +8,11 @@ html { font-family: "Jost", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
     box-sizing: border-box;
 }
 
+*::selection {
+    background-color: #fff;
+    color: #0b48ed;
+}
+
 html, body{
     height: 100%;
     width: 100%;
@@ -161,7 +166,7 @@ html, body{
     font-weight: 400;
 }
 
-#page4{
+#page5{
     height: 100vh;
     width: 100%;
     position: relative;
