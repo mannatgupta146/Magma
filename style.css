@@ -130,5 +130,33 @@ html, body{
     height: 100vh;
     width: 100%;
     position: relative;
-    background-color: #A55a5a;
+}
+
+#page4{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #1137ca;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+#page4 h1{
+    margin-left: 10vw;
+    width: 75%;
+    font-size: 3.5vw;
+    line-height: 1.4;
+    letter-spacing: -.06vw;
+    font-weight: 500;
+    color: #dadada69;
+}
+
+#page4 h3{
+    margin-left: 10vw;
+    margin-bottom: 2vw;
+    font-size: 1.2vw;
+    font-weight: 400;
 }

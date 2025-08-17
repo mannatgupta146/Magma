@@ -48,6 +48,8 @@ gsap.to("#page2 h1 span", {
     color: "#fff"
 })
 
+
+
 function canvas(){
     const canvas = document.querySelector("#page3>canvas");
 const context = canvas.getContext("2d");
@@ -197,3 +199,21 @@ ScrollTrigger.create({
 });
 }
 canvas()
+
+var clutter = "";
+document.querySelector("#page4 h1").textContent.split(" ").forEach(function(dets){
+    clutter += `<span> ${dets} </span>`
+    document.querySelector("#page4 h1").innerHTML = clutter;
+})
+
+gsap.to("#page4 h1 span", {
+    scrollTrigger:{
+        trigger: "#page4 h1 span",
+        start: "top bottom",
+        end: "bottom top",
+        scroller: "#main",
+        scrub: .5,
+    },
+    stagger: .5,
+    color: "#fff"
+})
