@@ -30,6 +30,19 @@ ScrollTrigger.refresh();
 }
 loco()
 
+document.addEventListener('DOMContentLoaded', function () {
+    const scroll = new LocomotiveScroll({
+        el: document.querySelector('#main'),
+        smooth: true,
+        smartphone: {
+            smooth: true
+        },
+        tablet: {
+            smooth: true
+        }
+    });
+    });
+
 var clutter = "";
 document.querySelector("#page2 h1").textContent.split(" ").forEach(function(dets){
     clutter += `<span> ${dets} </span>`
