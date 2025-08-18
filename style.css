@@ -21,7 +21,7 @@ html, body{
 #main{
     position: relative;
     overflow: hidden;
-    background: #0B2FC1;
+    background: #0D34C4;
 }
 
 #page1{
@@ -182,7 +182,7 @@ html, body{
     height: 100vh;
     width: 100%;
     position: relative;
-    background: linear-gradient(to bottom, #0B2FC1, #1137ca);
+    background: linear-gradient(to bottom, #0D34C4, #1137ca);
     display: flex;
     align-items: start;
     justify-content: center;
@@ -244,4 +244,20 @@ html, body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#page8{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #1137ca;
+}
+
+#page8 video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
