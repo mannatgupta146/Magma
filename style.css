@@ -254,10 +254,32 @@ html, body{
 }
 
 #page8 video{
-    position: absolute;
-    top: 0;
-    left: 0;
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+#page8-bottom{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;  
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#page8-bottom h1{
+    font-size: 5vw;
+    color: #fff;
+    margin-bottom: 1vw;
+    font-weight: 500;
+}
+
+#page8-bottom button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0b48ed;
+    font-size: 1.2vw;
+    cursor: pointer;
 }
