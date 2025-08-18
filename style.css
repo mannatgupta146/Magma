@@ -219,3 +219,29 @@ html, body{
     max-width: 100%;
     max-height: 100vh;
 }
+
+#page7-cir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vw;
+    width: 25vw;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+#cir-inner{
+    height: 70%;
+    width: 70%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
