@@ -359,3 +359,64 @@ html, body{
     font-size: 1.2vw;
     margin-top: 2vw;
 }
+
+#page11{
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+#page11>h1{
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    font-size: 4vw;
+    color: #000;
+    font-weight: 300;
+}
+
+.inner11{
+    display: flex;
+    top: 18%;
+    position: relative;
+    margin-bottom: 2vw;
+    height: 24%;
+    width: 100%;
+}
+
+.left11{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    left: 4%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left11 img{
+    width: 100%;
+    right: 100%;
+    object-fit: cover;
+}
+
+.right11{
+    position: absolute;
+    padding-top: 5vw;
+    color: #000;
+    height: 100%;
+    width: 50%;
+    left: 50%;
+}
+
+.inner11 .right11 h4{
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.inner11 .right11 h1{
+    margin-top: 1.5vw;
+    font-size: 2.5vw;
+    font-weight: 500;
+    line-height: 1;
+}
