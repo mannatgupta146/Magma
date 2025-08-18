@@ -213,3 +213,9 @@ html, body{
     position: relative;
     background-color: #1137ca;
 }
+
+#page7 canvas{
+    position: relative;
+    max-width: 100%;
+    max-height: 100vh;
+}
