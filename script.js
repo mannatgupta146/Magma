@@ -41,7 +41,8 @@ document.addEventListener('DOMContentLoaded', function () {
             smooth: true
         }
     });
-    });
+});
+
 
 var clutter = "";
 document.querySelector("#page2 h1").textContent.split(" ").forEach(function(dets){

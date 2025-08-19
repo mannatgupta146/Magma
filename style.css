@@ -518,3 +518,187 @@ html, body{
 .inner14:hover .center14{
     height: 100%;
 }
+
+/* 📱 Responsive (max-width: 576px) */
+@media (max-width: 576px) {
+    html, body {
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+
+    nav img {
+        width: 25% !important;
+    }
+
+    #right-nav button {
+        margin-top: 0;
+        font-size: 3vw;
+        padding: 6px 14px;
+    }
+
+    #page1-bottom {
+        width: 85%;
+        left: 5%;
+        bottom: 12%;
+    }
+
+    #page1-bottom h1 {
+        font-size: 10vw;
+        line-height: 11vw;
+    }
+
+    #bottom-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    #bottom-inner button {
+        font-size: 3.5vw;
+        padding: 10px 20px;
+    }
+
+    #bottom-inner h4 {
+        font-size: 3vw;
+    }
+
+    #page2 h1,
+    #page4 h1,
+    #page6 h1 {
+        font-size: 7vw;
+        width: 95%;
+    }
+
+    #page2 h2,
+    #page4 h3,
+    #page6 h3 {
+        font-size: 3vw;
+    }
+
+    #page8-bottom h1 {
+        font-size: 8vw;
+    }
+
+    #page8-bottom button {
+        font-size: 3.5vw;
+        padding: 10px 18px;
+    }
+
+    #page9 {
+        flex-direction: column;
+    }
+
+    #left9 {
+        width: 100%;
+        height: 30%;
+    }
+
+    #left9 h1 {
+        font-size: 7vw;
+        top: 50%;
+        right: 5%;
+    }
+
+    #right9 {
+        width: 100%;
+        height: 70%;
+    }
+
+    #right9-center {
+        width: 90%;
+        height: 70%;
+        left: 5%;
+    }
+
+    #right10 {
+        left: 0;
+        width: 100%;
+        padding: 6vw;
+    }
+
+    .right10-inner h1 {
+        font-size: 5vw;
+    }
+
+    .right10-inner p {
+        font-size: 3vw;
+        width: 100%;
+    }
+
+    #page11 {
+        height: auto;
+        padding: 10vw 4vw;
+    }
+
+    #page11 > h1 {
+        font-size: 8vw;
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-bottom: 5vw;
+    }
+
+    .inner11 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left11, .right11 {
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+
+    .left11 {
+        height: auto;
+    }
+
+    .right11 {
+        padding-top: 4vw;
+    }
+
+    .inner11 .right11 h4 {
+        font-size: 3vw;
+    }
+
+    .inner11 .right11 h1 {
+        font-size: 6vw;
+    }
+
+    #inner12 {
+        top: 25%;
+        right: 5%;
+        text-align: center;
+    }
+
+    #inner12 h1 {
+        font-size: 10vw;
+    }
+
+    #inner12 p {
+        font-size: 4vw;
+    }
+
+    #page13 h1 {
+        font-size: 8vw;
+    }
+
+    #page13 button {
+        font-size: 3.5vw;
+        padding: 10px 18px;
+    }
+
+    .inner14 {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 4vw;
+    }
+
+    .inner14 h1 {
+        font-size: 6vw;
+    }
+
+    .inner14 i {
+        font-size: 5vw;
+    }
+}
