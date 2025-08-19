@@ -479,11 +479,12 @@ html, body{
 }
 
 .inner14{
+    position: relative;
     height: 33.33%;
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 0vw 5vw;
+    padding: 0vw 7vw;
     border-top: .5px solid #ffffff5c;
     border-bottom: .5px solid #ffffff48;
 }
@@ -500,4 +501,19 @@ html, body{
     font-weight: 400;
     position: relative;
     z-index: 9999;
+}
+
+.center14{
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    background-color: #0C2794;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all ease .5s;
+}
+
+.inner14:hover .center14{
+    height: 100%;
 }
