@@ -369,6 +369,8 @@ html, body{
 
 #page11>h1{
     position: absolute;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
     top: 2%;
     left: 10%;
     font-size: 4vw;
@@ -419,4 +421,83 @@ html, body{
     font-size: 2.5vw;
     font-weight: 500;
     line-height: 1;
+}
+
+#page12{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #0c2794;
+}
+
+#inner12{
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    color: #fff;
+}
+
+#inner12 h1{
+    font-size: 5vw;
+}
+
+#inner12 p{
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+
+#page13{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 7vw 12vw;
+}
+
+#page13 h1{
+    font-size: 4vw;
+    line-height: 1;
+}
+
+#page13 button{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1vw;
+    background-color: #0C2794;
+    color: #fff;
+    margin-top: 3vw;
+}
+
+#page14{
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.inner14{
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0vw 5vw;
+    border-top: .5px solid #ffffff5c;
+    border-bottom: .5px solid #ffffff48;
+}
+
+.inner14 i{
+    position: relative;
+    font-weight: 100;
+    font-size: 2.4vw;
+    z-index: 9999;
+}
+
+.inner14 h1{
+    font-size: 3vw;
+    font-weight: 400;
+    position: relative;
+    z-index: 9999;
 }
