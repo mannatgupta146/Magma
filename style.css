@@ -453,7 +453,7 @@ html, body{
     width: 100%;
     background-color: #000;
     color: #fff;
-    padding: 7vw 12vw;
+    padding: 7vw 7vw;
 }
 
 #page13 h1{
@@ -485,7 +485,7 @@ html, body{
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 0vw 7vw;
+    padding: 0vw 8vw;
     border-top: .5px solid #ffffff5c;
     border-bottom: .5px solid #ffffff48;
 }
