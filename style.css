@@ -290,7 +290,7 @@ html, body{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-color: #1137ca;
+    background-color: #093DCD;
 }
 
 #left9{
@@ -333,7 +333,7 @@ html, body{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-color: #1137ca;
+    background-color: #093DCD;
 }
 
 #right10{
@@ -427,7 +427,7 @@ html, body{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-color: #0c2794;
+    background-color: #093DCD;
 }
 
 #inner12{
@@ -438,12 +438,13 @@ html, body{
 }
 
 #inner12 h1{
-    font-size: 5vw;
+    font-size: 6vw;
 }
 
 #inner12 p{
-    font-size: 1.3vw;
-    font-weight: 300;
+    margin-top: 1.5vw;
+    font-size: 1.5vw;
+    font-weight: 400;
 }
 
 #page13{
@@ -465,7 +466,7 @@ html, body{
     border: none;
     border-radius: 50px;
     font-size: 1vw;
-    background-color: #0C2794;
+    background-color: #093DCD;
     color: #fff;
     margin-top: 3vw;
 }
@@ -507,7 +508,7 @@ html, body{
     position: absolute;
     height: 0%;
     width: 100%;
-    background-color: #0C2794;
+    background-color: #093DCD;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
