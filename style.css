@@ -527,11 +527,12 @@ html, body{
     }
 
     nav img {
-        width: 25% !important;
+        width: 35% !important;
+        margin-left: -16vw;
     }
 
     #right-nav button {
-        margin-top: 0;
+        margin-top: 6vw;
         font-size: 3vw;
         padding: 6px 14px;
     }
@@ -545,6 +546,7 @@ html, body{
     #page1-bottom h1 {
         font-size: 10vw;
         line-height: 11vw;
+        margin-bottom: 3vw;
     }
 
     #bottom-inner {
@@ -555,18 +557,23 @@ html, body{
 
     #bottom-inner button {
         font-size: 3.5vw;
+        margin-top: 7vw;
         padding: 10px 20px;
     }
 
     #bottom-inner h4 {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
-    #page2 h1,
-    #page4 h1,
-    #page6 h1 {
+    #page2 h1{
         font-size: 7vw;
         width: 95%;
+    }
+
+    #page4 h1,
+    #page6 h1 {
+        font-size: 5.8vw;
+        width: 80%;
     }
 
     #page2 h2,
@@ -589,8 +596,8 @@ html, body{
     }
 
     #left9 {
-        width: 100%;
-        height: 30%;
+        height: 100%;
+        width: 35%;
     }
 
     #left9 h1 {
@@ -662,30 +669,34 @@ html, body{
     }
 
     .inner11 .right11 h1 {
-        font-size: 6vw;
+        font-size: 5vw;
     }
 
     #inner12 {
         top: 25%;
         right: 5%;
-        text-align: center;
+        text-align: start;
     }
 
     #inner12 h1 {
-        font-size: 10vw;
+        font-size: 12vw;
+        margin-left: 5vw;
     }
 
     #inner12 p {
-        font-size: 4vw;
+        font-size: 6vw;
+        margin-left: 5vw;
     }
 
     #page13 h1 {
         font-size: 8vw;
+        margin-top: 10vw;
     }
 
     #page13 button {
         font-size: 3.5vw;
         padding: 10px 18px;
+        margin-top: 7vw;
     }
 
     .inner14 {
