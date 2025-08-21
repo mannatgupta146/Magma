@@ -8,7 +8,7 @@ This project is a recreation of the concept shown in the original Magma website 
 - ⚡ **Smooth Scrolling** with [Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/)
 - 🎨 **Beautiful GSAP Animations** for dynamic transitions
 - 📱 **Fully Responsive** — optimized for mobile, tablet, and desktop
-- 🔄 **Reload-Friendly Animations** — no glitches or broken states
+- 🖼️ **3D Image-Sequence Effects — rendered via HTML <canvas>**
 - 🧩 **Optimized Codebase** for better readability & performance
 
 
