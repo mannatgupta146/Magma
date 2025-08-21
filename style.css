@@ -183,7 +183,7 @@ html, body{
     height: 100vh;
     width: 100%;
     position: relative;
-    background: linear-gradient(to bottom, #0D34C4, #1137ca);
+    background: linear-gradient(to bottom, #0D34C4, #093DCD);
     display: flex;
     align-items: start;
     justify-content: center;
