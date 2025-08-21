@@ -602,7 +602,7 @@ html, body{
 
     #left9 h1 {
         font-size: 7vw;
-        top: 50%;
+        top: 80%;
         right: 5%;
     }
 
@@ -706,10 +706,22 @@ html, body{
     }
 
     .inner14 h1 {
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     .inner14 i {
         font-size: 5vw;
+    }
+
+    /* 🎯 Keep circular animation proportional */
+    #page7-cir {
+        height: 50vw;
+        width: 50vw;
+        border-width: 1px;
+    }
+
+    #cir-inner {
+        height: 70%;
+        width: 70%;
     }
 }
